@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="portfolio.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Aryan Khare</h1>
+            <nav>
+                <ul>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section id="about" class="section">
+        <div class="container">
+            <h2>About Me</h2>
+            <p>I am a passionate web developer with expertise in HTML, CSS, and JavaScript. I love creating responsive and user-friendly websites.</p>
+        </div>
+    </section>
+
+    <section id="portfolio" class="section">
+        <div class="container">
+            <h2>Portfolio</h2>
+            <div class="portfolio-item">
+                <img src="Screenshot 2024-03-25 235546.jpg" alt="Temperature Converter">
+                <h3>Temperature Converter</h3>
+                <p>This is a Temperature Converter used to COnvert the Temperature between Celcius, Fehrenheit and Kelvin</p>
+            </div>
+            <div class="portfolio-item">
+                <img src="cacli.jpg" alt="Calculator">
+                <h3>Calculator</h3>
+                <p>This is a calulator made by HTML, CSS and JavaScript</p>
+            </div>
+            <div class="portfolio-item">
+                <img src="drum kit.jpg" alt="Drum Kit">
+                <h3>Drum Kit</h3>
+                <p>This is a Drum kit made by HTML, CSS and JavaScript</p>
+            </div>
+            <!-- Add more portfolio items as needed -->
+        </div>
+    </section>
+
+    <section id="contact" class="section">
+        <div class="container">
+            <h2>Contact Me</h2>
+            <form action="submit.php" method="post">
+                <input type="text" name="name" placeholder="Your Name">
+                <input type="email" name="email" placeholder="Your Email">
+                <textarea name="message" placeholder="Your Message"></textarea>
+                <button type="submit">Send</button>
+            </form>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 John Doe - All Rights Reserved</p>
+        </div>
+    </footer>
+</body>
+</html>
